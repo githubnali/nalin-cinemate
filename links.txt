@@ -1,0 +1,17 @@
+API Key :- b52a9b5a70358ea8ae6ea60ba12f2bde
+
+API Read Access token:- eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiNTJhOWI1YTcwMzU4ZWE4YWU2ZWE2MGJhMTJmMmJkZSIsIm5iZiI6MTczNDYzMDA3Mi4zMzEsInN1YiI6IjY3NjQ1YWI4MGM4NjVmMjQ4OTFmNjRiMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.FuiTR60iSuGV3orWzUHXMt9xh_jpqglKdkYtDJ-fK3E
+
+Base URL:-https://api.themoviedb.org/3/
+
+Individula :- https://api.themoviedb.org/3/movie/{movie_id}?api_key=b52a9b5a70358ea8ae6ea60ba12f2bde
+
+Now Playing API:- https://api.themoviedb.org/3/movie/now_playing?api_key=b52a9b5a70358ea8ae6ea60ba12f2bde
+
+popular:- https://api.themoviedb.org/3/movie/popular?api_key=b52a9b5a70358ea8ae6ea60ba12f2bde
+
+top rated:- https://api.themoviedb.org/3/movie/top_rated?api_key=b52a9b5a70358ea8ae6ea60ba12f2bde
+
+upcoming :- https://api.themoviedb.org/3/movie/upcoming?api_key=b52a9b5a70358ea8ae6ea60ba12f2bde
+
+search API:- https://api.themoviedb.org/3/search/movie?api_key=b52a9b5a70358ea8ae6ea60ba12f2bde&query=avatar&include_adult=false&language=en-US&page=1
