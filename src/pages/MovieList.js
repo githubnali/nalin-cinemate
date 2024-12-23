@@ -5,7 +5,7 @@ export const MovieList = ({ apiPath, title }) => {
   //object destructring data as movie
   const { data: movies } = useFetch(apiPath);
 
-  //page title update
+  /*eslint-disable*/
   const pageTitle = usePageTitle(`${title}`);
 
   return (

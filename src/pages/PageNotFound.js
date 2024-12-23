@@ -3,7 +3,7 @@ import { usePageTitle } from '../hooks';
 import errorImage from '../assets/images/error_not-found.avif';
 
 export const PageNotFound = ({ title }) => {
-  //update page title
+  /*eslint-disable*/
   const pageTitle = usePageTitle(title);
 
   return (

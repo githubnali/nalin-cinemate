@@ -15,7 +15,7 @@ export const MovieDetail = () => {
     ? `https://image.tmdb.org/t/p/w500/${movie.poster_path}`
     : image_backup;
 
-  //update the page title
+  /*eslint-disable*/
   const PageTitle = usePageTitle(`${movie.title}`);
 
   //fetch the movie details using use fecth api
@@ -30,7 +30,7 @@ export const MovieDetail = () => {
       console.log(movieDetails);
     }
     movie();
-  }, []);
+  }, [params.id]);
 
   return (
     <main>

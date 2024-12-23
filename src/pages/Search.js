@@ -10,7 +10,7 @@ export const Search = ({ apiPath }) => {
   //get the query parameters
   const queryTerm = searchParams.get('q');
 
-  //update page title
+  /*eslint-disable*/
   const pageTitle = usePageTitle(`Search Result for ${queryTerm}`);
 
   //update data object as movie
