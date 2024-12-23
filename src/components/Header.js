@@ -2,7 +2,7 @@ import { Link, NavLink, useNavigate } from 'react-router-dom';
 import Logo from '../assets/header_logo.jpg';
 import { useEffect, useState } from 'react';
 export const Header = () => {
-  //use tstae to update the hidden
+  //use tstae to update the hidden.
   const [hidden, setHidden] = useState(true);
 
   //use navigate to navigate to routes
