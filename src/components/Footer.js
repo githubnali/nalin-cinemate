@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 export const Footer = () => {
   return (
     <footer className=" bg-white shadow dark:bg-gray-900">
-      <div className="max-w-screen-xl mx-auto md:flex md:justify-between p-4">
+      <div className="max-w-screen-xl mx-auto flex flex-col justify-center items-center gap-6 md:flex-row md:justify-between p-4">
         <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
-          © 2028-
+          © 2025-
           <Link to="/" className="hover:underline">
             Nalin Cinemate
           </Link>
